@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
-export default function SecondPage({ navigation }) {
+export default function RegisterPage({ navigation }) {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [showPassword, setShowPassword] = useState(true)
