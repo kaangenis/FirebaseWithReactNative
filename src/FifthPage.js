@@ -23,15 +23,6 @@ const FifthPage = () => {
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
-    const updateTry = async () => {
-        const washingtonRef = doc(db, "UserInfo", pickUpdate);
-
-        // Set the "capital" field of the city 'DC'
-        await updateDoc(washingtonRef, {
-            age: Number(updateData)
-        });
-    }
-
 
     return (
 
