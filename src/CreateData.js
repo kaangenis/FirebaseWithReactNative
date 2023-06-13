@@ -103,7 +103,7 @@ const ThirdPage = () => {
     )
 }
 
-export default ThirdPage
+export default CreateData
 
 const styles = StyleSheet.create({
     mainView: {
