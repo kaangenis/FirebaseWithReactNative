@@ -129,7 +129,7 @@ const FirstPage = ({navigation}) => {
   )
 }
 
-export default FirstPage
+export default LoginPage
 
 const styles = StyleSheet.create({
   mainView: {
