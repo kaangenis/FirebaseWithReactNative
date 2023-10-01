@@ -6,3 +6,4 @@ Using Firebase authentication and Firestore with React Native
 
 
 -Firebase Authentication ve Firestore CRUD İşlemlerini içerir.
+
